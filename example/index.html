@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap-datepicker-vietnamese-lunar demo</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
+</head>
+<body>
+<div style="position: relative; top: 100px; width: 200px; margin: 0 auto;">
+    <input class="form-control" id="input">
+</div>
+</body>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+
+
+<script src="../node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+<script src="../node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js"></script>
+<script src="../dist/bootstrap-datepicker-vietnamese-lunar.js"></script>
+<script>
+$('#input').datepicker({
+    format: 'dd-mm-yyyy',
+    autoclose: true,
+    language: "vi"
+});
+</script>
+</html>

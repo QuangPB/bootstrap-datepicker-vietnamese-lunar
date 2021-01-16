@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-datepicker-vietnamese-lunar",
+  "version": "0.1.0",
+  "description": "The Vietnamese Lunar calendar for bootstrap-datepicker.",
+  "author": "QuangPB",
+  "keywords": [
+    "lunar",
+    "vietnamese",
+    "calendar",
+    "date",
+    "picker"
+  ],
+  "source": "src/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-datepicker": "^1.8.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-cleanup": "^3.0.0",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-less": "^1.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "amlich.js": "^1.0.6"
+  }
+}
